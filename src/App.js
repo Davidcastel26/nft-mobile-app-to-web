@@ -2,7 +2,7 @@
 const App = () => {
   return (
     <div className="App">
-      <h1>React Nft</h1>
+      <h1 className="text-3xl font-bold underline">React Nft</h1>
     </div>
   );
 }
