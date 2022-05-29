@@ -3,12 +3,14 @@ import { Download, Features, SectionWrapper } from "./components";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold ">React Nft</h1>
+    <>
       <Download />
       <Features />
-      <SectionWrapper />
-    </div>
+      <SectionWrapper 
+        title="You own store of Nifty NFTs. Start Selling & Growing!"
+        description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ Million people using ProNef Marketplace."
+      />
+    </>
   );
 }
 
