@@ -12,7 +12,10 @@ const SectionWrapper = ({title, description, showBtn, mockupImg, banner }) => {
           <p className={`${styles.descriptionText}`}>{description}</p>
           {
             showBtn && (
-              <Button />
+              <Button
+                assetUrl={assets.expo}
+                link="deployed nft marketplace rn"
+              />
             )
           }
         </div>
