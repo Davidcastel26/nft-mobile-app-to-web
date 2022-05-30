@@ -20,6 +20,7 @@ const App = () => {
         // banner="banner"
         reverse
       />
+      <Features />
     </>
   );
 }
