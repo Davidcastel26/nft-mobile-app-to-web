@@ -3,8 +3,10 @@ import React from 'react'
 import assets from '../assets'
 import styles from '../styles/Global'
 
-const FeaturesCard = () => {
-  
+const FeaturesCard = ({iconUrl, iconText}) => {
+  <div className={`${styles.featureCard}`}>
+    {iconText}
+  </div>
 }
 
 const Features = () => {
@@ -16,7 +18,8 @@ const Features = () => {
           <p className={`${styles.whiteText} ${styles.pText}`}>ProNef has been developed using a cross-platform technology, React Native.</p>
         </div>
         <div className={`${styles.flexWrap}`}>
-          <FeaturesCard />
+          <FeaturesCard iconUrl={assets.react} iconText="React Native"/>
+          <FeaturesCard iconUrl={assets.javascript} iconText="JavaScript"/>
         </div>
       </div>
     </div>
