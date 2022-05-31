@@ -1,6 +1,7 @@
 //importing the files from the index components
 import { Download, Features, SectionWrapper } from "./components";
 import assets from './assets'
+import styles from './styles/Global'
 
 const App = () => {
   return (
@@ -38,6 +39,11 @@ const App = () => {
         // reverse
       />
       <Download />
+      <div className="">
+        <p className={`${styles.pText}`}> Made with love by {" "} 
+          <span className="bold"> Davidcastel26 </span>
+        </p>
+      </div>
     </>
   );
 }
