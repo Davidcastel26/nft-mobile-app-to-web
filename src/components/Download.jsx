@@ -13,6 +13,9 @@ const Download = () => {
           <button className={`${styles.btnPrimary}`}> 
             <a href="https://github.com/Davidcastel26/nft-mobile-app-to-web">  Source Code </a>
            </button>
+           <div className={`${styles.flexCenter}`}>
+             <img src={assets.scene} alt="download_png" className={`${styles.fullImg}`} />
+           </div>
         </div>
       </div>
     </div>
