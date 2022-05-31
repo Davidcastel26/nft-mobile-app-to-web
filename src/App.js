@@ -37,6 +37,7 @@ const App = () => {
         banner="banner02"
         // reverse
       />
+      <Download />
     </>
   );
 }
