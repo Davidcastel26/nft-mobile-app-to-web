@@ -39,8 +39,8 @@ const App = () => {
         // reverse
       />
       <Download />
-      <div className="">
-        <p className={`${styles.pText}`}> Made with love by {" "} 
+      <div className={`px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04`}>
+        <p className={`${styles.pText} ${styles.whiteText}`}> Made with love by {" "} 
           <span className="bold"> Davidcastel26 </span>
         </p>
       </div>
